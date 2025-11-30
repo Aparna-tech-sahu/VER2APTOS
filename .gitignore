@@ -1,0 +1,76 @@
+# =====================================================
+# PYTHON
+# =====================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+venv/
+.env/
+.env.backup/
+*.env
+*$py.class
+
+# =====================================================
+# FASTAPI / UVICORN
+# =====================================================
+*.log
+logs/
+uvicorn.log
+
+# =====================================================
+# APTOS BLOCKCHAIN / MOVE
+# =====================================================
+*.pem
+*.key
+*.der
+*.msp
+aptos.key
+private.key
+public.key
+secret.key
+wallet.key
+.mnemonic
+keystore/
+keystore.json
+oracle_private_key.txt
+
+move/build/
+**/build/
+**/bytecode/
+*.mv
+*.bcs
+Move.toml.lock
+contract/build/
+contract/.aptos/
+contract/.move/
+
+# =====================================================
+# NODE / FRONTEND
+# =====================================================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDE / Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache & DB
+.cache/
+*.sqlite3
+__pypackages__/
+
+# Testing
+.coverage
+pytest_cache/
+htmlcov/

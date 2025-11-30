@@ -1,0 +1,12 @@
+[package]
+name = "aptos_karma_passport"
+version = "1.0.0"
+authors = ["Aparna"]
+
+[addresses]
+karma_passport = "0x7c474757235c6a0d26f8bae5af91089b2714ebe316cbac7d3e4081159ebc36ae"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework" }
+AptosStdlib    = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib" }
+MoveStdlib     = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib" }
